@@ -20,8 +20,9 @@ Mogilev, Belarus
 
 * **Languages:** English, Russian.
 
-### Sample code:
- static Processor CreateProcessor(string model, string manufacturer, int cores, double frequency, decimal price)
+### Sample code in C#:
+
+        static Processor CreateProcessor(string model, string manufacturer, int cores, double frequency, decimal price)
         {
             Processor p = new Processor
             {
@@ -42,7 +43,7 @@ Mogilev, Belarus
 
         static void AddProcessor()
         {
-            Console.WriteLine("=== Добавление нового процессора ===");
+            Console.WriteLine("Добавление нового процессора");
             
             Console.Write("Модель: ");
             string model = Console.ReadLine();
